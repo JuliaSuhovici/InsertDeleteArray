@@ -25,7 +25,7 @@ public class PersonArray {
 		people = newPeople;
 		output("Delete: ", people);
 		 
-		//----Insert----//
+		//----INSERT----//
 		 int indexToInsert = 1;
 		 Person[] newPeopleInsert = new Person[people.length+1];
 		 Person insertPerson = new Person("Frank Sinatra");
@@ -41,7 +41,7 @@ public class PersonArray {
 		 people = newPeopleInsert;
 		 output("Insert: ", people);
 	}
-	
+	//----OUTPUT----//
 	public static void output(String operation, Person[] people) {
 		System.out.print(operation);
 		for(Person i : people) {
