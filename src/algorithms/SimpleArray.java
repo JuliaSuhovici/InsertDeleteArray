@@ -17,7 +17,7 @@ public class SimpleArray {
 		 data = newData;
 		 output("Delete: ", data);
 		 
-		//----Insert----//
+		//----INSERT----//
 		 int newValue = -10;
 		 int indexToInsert = 2;
 		 int[] newDataInsert = new int[data.length+1];
@@ -35,7 +35,7 @@ public class SimpleArray {
 		 output("Insert: ", data);
 		 
 	}
-	
+	//----OUTPUT----//
 	public static void output(String operation, int[] data) {
 		System.out.print(operation);
 		 for(int i : data) {
